@@ -1,0 +1,20 @@
+  <head>
+  <style>
+.blinks{
+
+            font-size: 22px;
+            color: red;
+            animation: blink 1s linear infinite;
+            font-weight: bold;
+        }
+
+        @keyframes blink{
+            0%{opacity: 0;}
+            50%{opacity: .5;}
+            100%{opacity: 1;}
+        }
+
+  
+    echo "<a href='d2ddhl/dhl1.html' target='rightpanel2' class='blinks' >Ramoji Festive Special Offer</a>";
+   </style>
+  </head>
